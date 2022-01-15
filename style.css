@@ -54,6 +54,10 @@
   padding: 10px 20px;
   border-radius: 30px;
 }
+#hero-bk {
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+}
 .optional {
   width: 80%;
   margin: auto;
@@ -112,6 +116,25 @@
   color: #e02c6d;
   text-decoration: none;
 }
+
+/* optional area  */
+
+.row {
+  display: flex;
+}
+.main-col {
+  flex-basis: 31%;
+  background: #edf5f6;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  margin-right: 5px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+.main-col img {
+  width: 60px;
+}
+
 #hero-im {
   width: 100%;
   margin-top: 40px;
@@ -186,5 +209,13 @@
   }
   .nav-area {
     display: none;
+  }
+  .row {
+    width: 100%;
+    justify-content: space-between;
+  }
+  #hero-bk {
+    background-position: center;
+    background-size: cover;
   }
 }
